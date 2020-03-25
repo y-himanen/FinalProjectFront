@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import Week1 from './pages/Week1';
 import Dictionary from './pages/Dictionary';
+import LinkList from "./components/Links/LinkList";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path="/week1" component={Week1}/>
               <Route component={Error}/>
           </Switch>
+          <LinkList/>
       </React.Fragment>
   );
 }

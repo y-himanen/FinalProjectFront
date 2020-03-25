@@ -1,8 +1,12 @@
 import React from "react";
+import DictionaryView from "../components/dictionary/DictionaryView";
 
 const Dictionary = () => {
     return (
-        <h1>Dictionary</h1>
+        <div>
+            <h1>Dictionary</h1>
+            <DictionaryView />
+        </div>
     );
 }
 

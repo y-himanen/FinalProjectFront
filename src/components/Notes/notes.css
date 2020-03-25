@@ -1,0 +1,12 @@
+.notelist {
+    border-style: dotted;
+}
+
+.anote {
+    border-style: dashed;
+    display: -ms-flexbox;
+}
+
+.anote h3 {
+    font-weight: bold;
+}

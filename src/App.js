@@ -18,7 +18,6 @@ function App() {
               <Route path="/week1" component={Week1}/>
               <Route component={Error}/>
           </Switch>
-          <LinkList/>
       </React.Fragment>
   );
 }

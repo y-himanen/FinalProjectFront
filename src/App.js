@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import Week1 from './pages/Week1';
 import Dictionary from './pages/Dictionary';
-import LinkList from "./components/Links/LinkList";
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import Note from './Note';
 import '../../styles/notes.css';
+import '../../styles/Links.css';
 
 class NotesList extends React.Component {
 
@@ -25,11 +26,12 @@ class NotesList extends React.Component {
     render() {
 
         const weeknotes = this.state.notes.map(note =>
-            <Note text={note.text} id={note.id} />
+            <Note key={note.id} text={note.text} id={note.id} />
         )
 
         return(
             <div className="notelist">
+                <h3>Notes for week1</h3>
                 {weeknotes}
             </div>
         )

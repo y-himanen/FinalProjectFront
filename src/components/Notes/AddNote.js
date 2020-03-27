@@ -37,9 +37,9 @@ class AddNote extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className={"notelist"}>
                 <form>
-                    Add a note: <input type="text" value={this.state.text} onChange={this.handleChangeText}/>
+                    Add a note here: <input type="text" value={this.state.text} onChange={this.handleChangeText}/>
                     <button onClick={this.handleSubmit}>+</button>
 
                 </form>

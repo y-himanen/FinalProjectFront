@@ -1,5 +1,4 @@
 import { useSpring, animated } from 'react-spring';
-import {NavLink} from "react-router-dom";
 import React from 'react';
 import styled from 'styled-components';
 

@@ -10,10 +10,15 @@ class DictionarySearchResult extends Component {
         }
     }
 
-    finnishSearchHandler = () => {
-        this.setState({loading: true});
-        const url = "http://localhost:8080/api/dictionary"
-}
+     finnishSearchHandler = async (e) => {
+        const searchResult = e.target.elements.searchResult.value;
+        e.preventDefault();
+        const url = "http://localhost:8080/api/dictionary/finnish/" + searchResult;
+        const apiCall = await fetch(url)
+        const data = await apiCall.json();
+        this.setState({dictionary: data});
+
+ }
 
     // componentDidMount() {
     //     this.setState({loading: true})

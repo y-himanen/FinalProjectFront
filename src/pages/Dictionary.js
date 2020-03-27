@@ -1,5 +1,6 @@
 import React from "react";
 import DictionaryView from "../components/dictionary/DictionaryView";
+import "../styles/Dictionary.css"
 
 const Dictionary = () => {
     return (

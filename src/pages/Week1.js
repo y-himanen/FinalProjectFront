@@ -2,7 +2,6 @@ import React from "react";
 import NotesList from "../components/Notes/NotesList";
 import LinkList from "../components/Links/LinkList";
 import AddNote from "../components/Notes/AddNote";
-import "../styles/Week1.css"
 
 const Week1 = () => {
     return (

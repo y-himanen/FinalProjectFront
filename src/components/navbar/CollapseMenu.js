@@ -16,8 +16,8 @@ const CollapseMenu = (props) => {
             >
                 <NavLinks>
                     <li><a href="/" onClick={props.handleNavbar}>Home</a></li>
-                    <li><a href="/" onClick={props.handleNavbar}>Dictionary</a></li>
-                    <li><a href="/" onClick={props.handleNavbar}>Week 1</a></li>
+                    <li><a href="/Dictionary" onClick={props.handleNavbar}>Dictionary</a></li>
+                    <li><a href="/Week1" onClick={props.handleNavbar}>Week 1</a></li>
                 </NavLinks>
             </CollapseWrapper>
         );
@@ -28,9 +28,10 @@ const CollapseMenu = (props) => {
 export default CollapseMenu;
 
 const CollapseWrapper = styled(animated.div)`
-  background: #2d3436;
+  // alastulevan valikon väri:
+  background: #2d3436; 
   position: fixed;
-  top: 4.5rem;
+  top: 10rem; //tämä oli 4.5rem
   left: 0;
   right: 0;
 `;

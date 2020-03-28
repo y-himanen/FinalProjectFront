@@ -1,17 +1,22 @@
 .notelist {
-    display: flex;
+    display: inline-flex;
     margin: 10px;
     text-align: center;
     border: solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 60%;
+    width: 90%;
     padding: 10px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.notelist h3 {
+.notelist {
+    display: inline-flex;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
 
 }
 
@@ -21,7 +26,7 @@
     border-width: 2px;
     padding: 10px;
     margin: 5px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -32,15 +37,16 @@
     width: 20px;
     border: none;
     text-align: center;
+    font-size: medium;
 }
 
 .anote button:hover, .notelist button:hover {
-    background-color: darkseagreen;
-    border-radius: 5px;
+    background-color: #ffc80c;
+    border-radius: 7px;
 }
 
 .notetext {
     font-family: monospace;
-    color: green;
-    font-size: medium;
+    color: #053b39;
+    font-size: large;
 }

@@ -6,8 +6,9 @@ class Links extends React.Component {
 
     render() {
         return (
-            <div class = "link">
+            <div className = "link">
                 <h3><a href= {this.props.product.link}>{this.props.product.title}</a></h3>
+                <br/>
                 <p>{this.props.product.description}</p>
             </div>
         )

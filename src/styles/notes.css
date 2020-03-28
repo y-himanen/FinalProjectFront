@@ -1,26 +1,46 @@
 .notelist {
-    border-style: solid;
-    border-color: darkolivegreen;
-    border-radius: 5px;
-    border-width: 1px;
-    padding: 5px;
-    margin: 10px;
     display: flex;
+    margin: 10px;
+    text-align: center;
+    border: solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 60%;
+    padding: 10px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.notelist h3 {
+
+}
+
 .anote {
-    color: green;
-    border-style: solid;
-    border-color: darkolivegreen;
-    border-radius: 5px;
+    border: solid #eee;
+    box-shadow: 0 1px 2px #ccc;
     border-width: 2px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.anote button, .notelist button {
+    padding: 2px;
+    width: 20px;
+    border: none;
+    text-align: center;
+}
+
+.anote button:hover, .notelist button:hover {
+    background-color: darkseagreen;
+    border-radius: 5px;
+}
+
+.notetext {
+    font-family: monospace;
+    color: green;
+    font-size: medium;
 }

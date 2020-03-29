@@ -28,9 +28,12 @@ class LinkList extends React.Component {
         }
 
         return (
-            <div>
+            <div className= 'linklist'>
+                <br/>
                 <h2>Useful links:</h2>
+                <br/>
                 {linklist}
+                <br/>
             </div>
         )
     }

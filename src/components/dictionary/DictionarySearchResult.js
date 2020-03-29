@@ -30,12 +30,12 @@ class DictionarySearchResult extends Component {
     }
 
     render() {
-        const dictionaryview = this.state.dictionary.map((dictionaryentry =>
+        const searchresult = this.state.dictionary.map((dictionaryentry =>
         <DictionaryEntry id={dictionaryentry.id} finnish={dictionaryentry.finnish} english={dictionaryentry.english}/>))
 
         return (
             <div>
-                {dictionaryview}
+                {searchresult}
             </div>
         )
     }

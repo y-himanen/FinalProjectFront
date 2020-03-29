@@ -1,9 +1,25 @@
 .link {
-    display: inline-block;
+    display: inline-flex;
     margin: 10px;
     text-align: center;
     border: solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 60%;
+    width: 90%;
     padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.linklist {
+    display: inline-flex;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+
+
+
+
 }

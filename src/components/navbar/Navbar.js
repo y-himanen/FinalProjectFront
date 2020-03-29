@@ -79,11 +79,11 @@ const FlexContainer = styled.div`
   margin: auto;
   padding: 0 2rem;;
   justify-content: space-between;
-  height: 5rem;
+  height: 10rem; //tämä oli 5rem
 `;
 
 const NavLinks = styled(animated.ul)`
-  justify-self: end;
+  justify-self: center;
   list-style-type: none;
   margin: auto 0;
 

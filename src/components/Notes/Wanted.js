@@ -4,7 +4,7 @@ function Wanted(props) {
 
     return(
         <div>
-            {props.fin} on englanniksi: {props.eng}
+            "{props.fin}" in english: {props.eng}
         </div>
     )
 }

@@ -3,14 +3,14 @@ import NotesList from "../components/Notes/NotesList";
 import LinkList from "../components/Links/LinkList";
 import AddNote from "../components/Notes/AddNote";
 import Navi from "../Navi";
-import NoteSearch from "../components/Notes/NoteSearch";
+import LanguageSearch from "../components/Notes/LanguageSearch";
 
 const Week1 = () => {
     return (
         <div>
             <Navi />
             <h1>Week 1</h1>
-            <NoteSearch />
+            <LanguageSearch />
             <NotesList />
             <AddNote />
             <LinkList/>

@@ -39,7 +39,7 @@ class AddNote extends React.Component {
         return(
             <div className={"notelist"}>
                 <form>
-                    Add a note here: <input type="text" value={this.state.text} onChange={this.handleChangeText}/>
+                    Add a note (max 100 characters): <input type="text" value={this.state.text} onChange={this.handleChangeText} maxLength="100" />
                     <button className="addnote" onClick={this.handleSubmit}>+</button>
 
                 </form>

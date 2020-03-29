@@ -27,7 +27,9 @@ class Note extends React.Component {
     render() {
         return (
             <div className="anote">
+                <div className="positionbutton">
                 <button onClick={this.handleDelete}>x</button>
+                </div>
                 <p className={"notetext"}>{this.props.text}</p>
             </div>
         )

@@ -9,8 +9,7 @@ import Navi from "./Navi";
 
 function App() {
   return (
-      <React.Fragment className="App">
-          <Navi />
+      <React.Fragment>
           <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/dictionary" component={Dictionary}/>

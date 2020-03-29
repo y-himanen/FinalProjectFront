@@ -5,20 +5,11 @@
     text-align: center;
     border: solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 90%;
+    width: 60%;
     padding: 10px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.notelist {
-    display: inline-flex;
-    margin: 10px;
-    text-align: center;
-    flex-direction: column;
-    width: 90%;
-
 }
 
 .anote {
@@ -27,7 +18,7 @@
     */
     padding: 5px;
     margin: 5px;
-    display: inline-flex;
+    display: flex;
     text-align: center;
     flex-direction: column;
     background-color: #FADB9C;
@@ -61,16 +52,10 @@
     padding: 5px;
     font-family: 'Reenie Beanie', cursive;
     color: darkblue;
-    font-size: medium;
-}
-
-.anote button:hover, .notelist button:hover {
-    background-color: #ffc80c;
-    border-radius: 7px;
-}
-
-.notetext {
-    font-family: monospace;
-    color: #053b39;
     font-size: large;
 }
+
+/*.anote button:hover, .notelist button:hover {
+    background-color: #ffc80c;
+    border-radius: 7px;
+}*/

@@ -1,3 +1,4 @@
+
 .notelist {
     display: inline-flex;
     margin: 10px;
@@ -21,22 +22,45 @@
 }
 
 .anote {
-    border: solid #eee;
-    box-shadow: 0 1px 2px #ccc;
-    border-width: 2px;
-    padding: 10px;
+    /*
+    border: 1px solid black;
+    */
+    padding: 5px;
     margin: 5px;
     display: inline-flex;
+    text-align: center;
     flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background-color: #FADB9C;
 }
 
-.anote button, .notelist button {
-    padding: 2px;
+.anote button {
+    padding: 3px;
+    margin: 3px;
     width: 20px;
     border: none;
     text-align: center;
+    background-color: #FADB9C;
+    color: #947536;
+}
+
+.notelist button {
+    width: 17px;
+    text-align: center;
+}
+
+.anote button:hover {
+    background-color: #fdcb6e;
+    border-radius: 2px;
+}
+
+.addnote:hover {
+    background-color: #E5E5E5;
+}
+
+.notetext {
+    padding: 5px;
+    font-family: 'Reenie Beanie', cursive;
+    color: darkblue;
     font-size: medium;
 }
 

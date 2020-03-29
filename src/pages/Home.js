@@ -11,14 +11,15 @@ const Home = () => {
                 Mukavaa opiskelua!</p><br /><br />
             <p>Welcome to your Academy Java Study Buddy.<br />
                 Here you'll find useful links and extra information on the material that you've been covering in the course.<br />
-                You can also add your own notes. Happy studying!<br />
+                You can also add your own notes.<br />
+                Happy studying!<br />
             </p>
             <br />
             <br />
             <p>
                 <ul>
-                    <Link to="/week1">Week 1</Link><br />
-                    <Link to="/dictionary">Koodaussanakirja / Coding Dictionary</Link>
+                    <li><Link to="/week1">Week 1</Link></li>
+                    <li><Link to="/dictionary">Koodaussanakirja / Coding Dictionary</Link></li>
                 </ul>
             </p>
         </div>

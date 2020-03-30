@@ -6,11 +6,13 @@ import Error from './pages/Error';
 import Week1 from './pages/Week1';
 import Dictionary from './pages/Dictionary';
 import Navi from "./Navi";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
       <React.Fragment>
           <Navi />
+          <Sidebar />
           <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/dictionary" component={Dictionary}/>

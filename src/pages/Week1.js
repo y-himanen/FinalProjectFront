@@ -7,7 +7,6 @@ import Navi from "../Navi";
 const Week1 = () => {
     return (
         <div>
-            <Navi />
             <h1>Viikko / Week 1</h1>
 
             <p>Ensimmäisellä viikolla opit Javan peruskäyttöä, muun muassa virtojen ja säännöllisten lausekkeiden käytön sekä poikkeuksien käsittelyn.<br />

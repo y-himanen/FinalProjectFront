@@ -7,6 +7,8 @@ import Navi from "../Navi";
 const Week1 = () => {
     return (
         <div>
+            <Navi />
+
             <h1>Viikko / Week 1</h1>
 
             <p>Ensimmäisellä viikolla opit Javan peruskäyttöä, muun muassa virtojen ja säännöllisten lausekkeiden käytön sekä poikkeuksien käsittelyn.<br />
@@ -19,8 +21,8 @@ const Week1 = () => {
             Here you'll find a collection of useful guides, cheat sheets and easy to understand videos.<br/>
             You can add your own notes and/or links at the bottom of the page.</p>
             <LinkList/>
-            <NotesList />
             <AddNote />
+            <NotesList />
 
         </div>
     );

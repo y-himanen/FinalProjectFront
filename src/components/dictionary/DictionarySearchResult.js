@@ -3,38 +3,57 @@ import DictionaryEntry from "./DictionaryEntry";
 
 class DictionarySearchResult extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
-            dictionary: []
-        }
+            wanted: '',
+            match: []
+        };
+        this.searchHandler = this.searchHandler.bind(this);
+        this.finnishChangeHandler = this.finnishChangeHandler.bind(this)
+        this.englishChangeHandler = this.englishChangeHandler.bind(this)
     }
- //
- //     finnishSearchHandler = async (e) => {
- //        const searchResult = e.target.elements.searchResult.value;
- //        e.preventDefault();
- //        const apiCall = await fetch("http://localhost:8080/api/dictionary/finnish/" + searchResult)
- //        const data = await apiCall.json();
- //        this.setState({dictionary: data});
- //
- // }
 
     componentDidMount() {
         this.setState({loading: true})
         const url = "http://localhost:8080/api/dictionary"
         fetch(url)
             .then(response => response.json())
-            .then(response => this.setState({dictionary: response}))
+            .then(response => this.setState({match: response}))
             .catch((error)=> {
                 console.log(error)
             })
     }
 
+    finnishChangeHandler(event) {
+        this.setState({wanted: '/finnish/' + event.target.value});
+    }
+
+    englishChangeHandler(event) {
+        this.setState({wanted: '/english/' + event.target.value});
+    }
+
+    searchHandler(){
+        const url = 'http://localhost:8080/api/dictionary' + this.state.wanted;
+        fetch(url)
+            .then(response => response.json())
+            .then(response => this.setState({match: response}))
+    }
+
     render() {
-        const searchresult = this.state.dictionary.map((dictionaryentry =>
-        <DictionaryEntry id={dictionaryentry.id} finnish={dictionaryentry.finnish} english={dictionaryentry.english}/>))
+
+        const searchresult = this.state.match.map(dictionaryentry =>
+        <DictionaryEntry key={dictionaryentry.id} finnish={dictionaryentry.finnish} english={dictionaryentry.english}/>);
 
         return (
             <div>
+                Mikä tämä on englanniksi? <input type="text" onChange={this.finnishChangeHandler}/>
+                <button onClick={this.searchHandler}>Hae</button>
+                <br/>
+                <br/>
+                What's that in Finnish? <input type="text" onChange={this.englishChangeHandler}/>
+                <button onClick={this.searchHandler}>Search</button>
+                <br/>
+                <br/>
                 {searchresult}
             </div>
         )

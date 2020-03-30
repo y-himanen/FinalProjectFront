@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 const Home = () => {
     return (
         <div>
+            <br/>
         <h1>Academy Java Kurssikaveri / Study Buddy</h1>
             <p>Tervetuloa Academy:n Java Kurssikaveriin.<br />
                 Täältä löydät hyödyllisiä linkkejä ja lisää tietoa kurssin aikana käsitellyistä asioista.<br />

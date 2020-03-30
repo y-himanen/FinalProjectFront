@@ -1,22 +1,18 @@
-import React from 'react'
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
+import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 
-function Sidebar() {
+
+export default props => {
     return (
-        <List disablePadding dense>
-            <ListItem button>
-                <ListItemText>Week 1</ListItemText>
-            </ListItem>
-            <ListItem button>
-                <ListItemText>Week 2</ListItemText>
-            </ListItem>
-            <ListItem button>
-                <ListItemText>Week 3</ListItemText>
-            </ListItem>
-        </List>
-    )
-}
+        <Menu className='sidebar'>
+            <br/>
+            <a className="menu-item" href="/">
+                Home
+            </a>
+            <a className="menu-item" href="/Week1">
+                Week 1
+            </a>
+        </Menu>
+    );
+};
 
-export default Sidebar

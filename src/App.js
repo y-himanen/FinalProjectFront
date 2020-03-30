@@ -10,6 +10,7 @@ import Navi from "./Navi";
 function App() {
   return (
       <React.Fragment>
+          <Navi />
           <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/dictionary" component={Dictionary}/>

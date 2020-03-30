@@ -1,6 +1,8 @@
 import React from 'react';
 
 class AddNote extends React.Component {
+
+    //week is hardcoded as 1 for now
     constructor(props) {
         super(props);
         this.state = {
@@ -27,7 +29,6 @@ class AddNote extends React.Component {
                 }
             });
         console.log("adding a note ok");
-        //is it necessary to reset??
         this.setState({text: ''});
     }
 

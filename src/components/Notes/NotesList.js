@@ -5,8 +5,7 @@ import '../../styles/Links.css';
 
 class NotesList extends React.Component {
 
-    //selected week comes with props from week -component/path ?!?
-    //for demo, selected week is 1
+    //selected week is hardcoded 1 for now
     constructor(props) {
         super(props);
 

@@ -8,6 +8,7 @@ const Week1 = () => {
     return (
         <div>
             <Navi />
+            <br/>
 
             <h1>Viikko / Week 1</h1>
 

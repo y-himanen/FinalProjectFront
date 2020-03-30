@@ -13,7 +13,7 @@ class DictionarySearchResult extends Component {
         this.englishChangeHandler = this.englishChangeHandler.bind(this)
     }
 
-    componentDidMount() {
+/*    componentDidMount() {
         this.setState({loading: true})
         const url = "http://localhost:8080/api/dictionary"
         fetch(url)
@@ -22,7 +22,7 @@ class DictionarySearchResult extends Component {
             .catch((error)=> {
                 console.log(error)
             })
-    }
+    }*/
 
     finnishChangeHandler(event) {
         this.setState({wanted: '/finnish/' + event.target.value});

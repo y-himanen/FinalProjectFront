@@ -5,6 +5,7 @@ import AddNote from "../components/Notes/AddNote";
 import Navi from "../Navi";
 
 const Week2 = () => {
+    const week = 2;
     return (
         <div>
             <Navi />
@@ -21,9 +22,9 @@ const Week2 = () => {
                 You also learned a little about distributed version control using Git.<br/>
                 Here you'll find a collection of useful guides, cheat sheets and easy to understand videos.<br/>
                 You can add your own notes and/or links at the bottom of the page.</p>
-            <LinkList/>
-            <AddNote wk='2'/>
-            <NotesList wk='2'/>
+            <LinkList wk={week}/>
+            <AddNote wk={week}/>
+            <NotesList wk={week}/>
 
         </div>
     );

@@ -24,10 +24,15 @@ class NotesList extends React.Component {
     }
 
     render() {
+        let weeknotes;
 
-        const weeknotes = this.state.notes.map(note =>
-            <Note key={note.id} text={note.text} id={note.id} />
-        )
+        if (this.state.notes.length === 0) {
+            weeknotes = 'No notes for this week.'
+        } else {
+            weeknotes = this.state.notes.map(note =>
+                <Note key={note.id} text={note.text} id={note.id} />
+            )
+        }
 
         return(
             <div className="notelist">

@@ -12,6 +12,9 @@ export default props => {
             <a className="menu-item" href="/Week1">
                 Week 1
             </a>
+            <a className="menu-item" href="/Week2">
+                Week 2
+            </a>
         </Menu>
     );
 };

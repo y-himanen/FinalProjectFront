@@ -5,12 +5,14 @@ class LinkList extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            linklist: []
+            linklist: [],
+            selectedWeek: props.wk
         }
     }
+
     componentDidMount() {
         this.setState({loading: true})
-        const url = "http://localhost:8080/api/links"
+        const url = "http://localhost:8080/api/links/" + this.state.selectedWeek;
         fetch(url)
             .then(response => response.json())
             .then(response => this.setState({linklist: response}))

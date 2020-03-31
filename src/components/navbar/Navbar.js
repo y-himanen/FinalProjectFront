@@ -29,8 +29,8 @@ const Navbar = (props) => {
                         <nav>
                             <NavLink exact activeClassName='nav-active' to="/">Home</NavLink>
                             <NavLink activeClassName='nav-active' to="/dictionary">Dictionary</NavLink>
-                            <NavLink activeClassName='nav-active' to="/week1">Week 1</NavLink>
-                            <NavLink activeClassName='nav-active' to="/sammy1">Code for Sammy 1</NavLink>
+                            {/*<NavLink activeClassName='nav-active' to="/week1">Week 1</NavLink>*/}
+                            {/*<NavLink activeClassName='nav-active' to="/sammy1">Code for Sammy 1</NavLink>*/}
                         </nav>
                     </NavLinks>
 {/*                    <NavLinks style={linkAnimation}>

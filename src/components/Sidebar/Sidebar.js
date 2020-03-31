@@ -9,14 +9,14 @@ export default props => {
             <a className="menu-item" href="/">
                 Home
             </a>
-            <a className="menu-item" href="/Week1">
-                week 1
+            <a className="menu-item" href="/week1">
+                Week 1
             </a>
-            <a className="menu-item" href="/Week2">
-                week 2
+            <a className="menu-item" href="/week2">
+                Week 2
             </a>
-            <a className="menu-item" href="/Week3">
-                week 3
+            <a className="menu-item" href="/week3">
+                Week 3
             </a>
         </Menu>
     );

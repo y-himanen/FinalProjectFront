@@ -22,8 +22,15 @@ class LinkList extends React.Component {
     }
 
     render() {
-        const linklist = this.state.linklist.map((item) =>
-            <Links key={item.id} product={item}/>)
+
+        let linklist;
+
+        if (this.state.linklist.length === 0) {
+            linklist = 'Links are under construction.'
+        } else {
+            linklist = this.state.linklist.map((item) =>
+                <Links key={item.id} product={item}/>)
+        }
 
         function handleClick() {
             console.log("I was clicked")

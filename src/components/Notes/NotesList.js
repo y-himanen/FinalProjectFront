@@ -11,11 +11,12 @@ class NotesList extends React.Component {
 
         this.state = {
             notes: [],
-            selectedWeek: 1
+            selectedWeek: props.wk
         }
     }
 
     componentDidMount() {
+        console.log(this.selectedWeek)
         const url = 'http://localhost:8080/notes/' + this.state.selectedWeek;
         fetch(url)
             .then(response => response.json())

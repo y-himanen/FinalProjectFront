@@ -22,8 +22,8 @@ const Week1 = () => {
             Here you'll find a collection of useful guides, cheat sheets and easy to understand videos.<br/>
             You can add your own notes and/or links at the bottom of the page.</p>
             <LinkList/>
-            <AddNote />
-            <NotesList />
+            <AddNote wk='1'/>
+            <NotesList wk='1'/>
 
         </div>
     );

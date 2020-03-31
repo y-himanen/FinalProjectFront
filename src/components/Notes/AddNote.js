@@ -7,7 +7,7 @@ class AddNote extends React.Component {
         super(props);
         this.state = {
             text: '',
-            selectedWeek: 1
+            selectedWeek: props.wk
         };
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChangeText = this.handleChangeText.bind(this);

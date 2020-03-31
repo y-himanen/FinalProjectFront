@@ -19,8 +19,9 @@ const Home = () => {
             <br />
             <p>
                 <ul>
-                    <li><Link to="/week1">Week 1</Link></li>
-                    <li><Link to="/week2">Week 2</Link></li>
+                    <li><Link to="/week1">week 1</Link></li>
+                    <li><Link to="/week2">week 2</Link></li>
+                    <li><Link to="/week3">week 3</Link></li>
                     <li><Link to="/dictionary">Koodaussanakirja / Coding Dictionary</Link></li>
                 </ul>
             </p>

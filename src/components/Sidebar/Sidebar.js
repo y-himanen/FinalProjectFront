@@ -10,10 +10,13 @@ export default props => {
                 Home
             </a>
             <a className="menu-item" href="/Week1">
-                Week 1
+                week 1
             </a>
             <a className="menu-item" href="/Week2">
-                Week 2
+                week 2
+            </a>
+            <a className="menu-item" href="/Week3">
+                week 3
             </a>
         </Menu>
     );

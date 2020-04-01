@@ -8,6 +8,7 @@ import Week2 from './pages/Week2';
 import Week3 from './pages/Week3';
 import Dictionary from './pages/Dictionary';
 import SammysAdventuresPart1 from "./pages/SammysAdventuresPart1";
+import SammysAdventuresPart2 from "./pages/SammysAdventuresPart2";
 import Navi from "./Navi";
 import Sidebar from "./components/Sidebar/Sidebar";
 
@@ -23,6 +24,7 @@ function App() {
               <Route path="/week2" component={Week2}/>
               <Route path="/week3" component={Week3}/>
               <Route path="/sammy1" component={SammysAdventuresPart1}/>
+              <Route path="/sammy2" component={SammysAdventuresPart2}/>
               <Route component={Error}/>
           </Switch>
       </React.Fragment>

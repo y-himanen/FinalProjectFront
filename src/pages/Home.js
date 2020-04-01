@@ -7,7 +7,7 @@ const Home = () => {
             <br/>
         <h1>Academy Java Kurssikaveri / Study Buddy</h1>
             <p>Tervetuloa Academy:n Java Kurssikaveriin.<br />
-                Täältä löydät kokoelman oppaita, "cheat sheetejä ja helppotajuisia videoita kurssin aikana käsitellyistä asioista.<br />
+                Täältä löydät kokoelman oppaita, "cheat sheetejä" ja helppotajuisia videoita kurssin aikana käsitellyistä asioista.<br />
                 Voit myös lisätä omia muistiinpanojasi.<br />
                 Mukavaa opiskelua!</p><br /><br />
             <p>Welcome to your Academy Java Study Buddy.<br />

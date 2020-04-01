@@ -12,7 +12,7 @@ const SammysAdventuresPart1 = () => {
                 Lataa ja viimeistele PineConeCalculatorin koodi <a target="_blank" href="https:www.github.com/y-himanen/SammysAdventuresPart1">GitHubista</a>:<br/><br/>
 
                 1. Kirjoita metodi, joka laskee kuinka monta käpyä Sammy on kerännyt tähän mennessä.<br/>
-                2. Kirjoita toinen metodi, joka laskee, kuinka monta käpyä Sammyn on päivittäin kerättävä, jos oleteaan että hän tarvitsee 1000 käpyä ja hänellä on vielä 24 päivää aikaa kerätä niitä.<br/><br/>
+                2. Kirjoita toinen metodi, joka laskee, kuinka monta käpyä Sammyn on päivittäin kerättävä, jos oletetaan että hän tarvitsee 1000 käpyä ja hänellä on vielä 24 päivää aikaa kerätä niitä.<br/><br/>
 
                 On olemassa useita oikeita ratkaisuja. Tiedät, että koodisi toimii, kun se läpäisee testitiedostossa olevat testit.<br/><br/><br/><br/><br/><br/>
             </p>

@@ -12,7 +12,7 @@ const Week1 = () => {
             <Navi />
             <br/>
 
-            <h1>Viikko / Week 1</h1>
+            <h1>Viikko / Week 1</h1><br/>
 
             <p>
                     Ensimmäisellä viikolla opit Javan peruskäyttöä, muun muassa virtojen ja säännöllisten lausekkeiden käytön sekä poikkeuksien käsittelyn.<br/><br/>

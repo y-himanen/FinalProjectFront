@@ -69,10 +69,12 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #2d3436;
+  background: #b8b894;
   z-index: 1;
   font-size: 1.4rem;
 `;
+
+//#2d3436
 
 const FlexContainer = styled.div`
   max-width: 120rem;
@@ -80,8 +82,9 @@ const FlexContainer = styled.div`
   margin: auto;
   padding: 0 2rem;;
   justify-content: space-between;
-  height: 10rem; //tämä oli 5rem
+  height: 10rem; 
 `;
+//height oli 5rem
 
 const NavLinks = styled(animated.ul)`
   justify-self: center;
@@ -89,7 +92,7 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
 
   & a {
-    color: #dfe6e9;
+    color: black;
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;

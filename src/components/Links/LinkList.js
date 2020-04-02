@@ -32,9 +32,6 @@ class LinkList extends React.Component {
                 <Links key={item.id} product={item}/>)
         }
 
-        function handleClick() {
-            console.log("I was clicked")
-        }
 
         return (
             <div className= 'linklist'>

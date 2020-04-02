@@ -2,7 +2,6 @@ import React from 'react';
 
 class AddNote extends React.Component {
 
-    //week is hardcoded as 1 for now
     constructor(props) {
         super(props);
         this.state = {
@@ -38,13 +37,13 @@ class AddNote extends React.Component {
 
     render() {
         return(
-            <div className={"notelist"}>
+            <flexbox className={"notelist"}>
                 <form>
                     Add a note (max 100 characters): <input type="text" value={this.state.text} onChange={this.handleChangeText} maxLength="100" />
                     <button className="addnote" onClick={this.handleSubmit}>+</button>
 
                 </form>
-            </div>
+            </flexbox>
         )
     }
 }

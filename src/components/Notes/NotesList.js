@@ -5,7 +5,6 @@ import '../../styles/Links.css';
 
 class NotesList extends React.Component {
 
-    //selected week is hardcoded 1 for now
     constructor(props) {
         super(props);
 
@@ -37,7 +36,7 @@ class NotesList extends React.Component {
         return(
             <div className="notelist">
                 <br/>
-                <h2>Muistinpanot / Notes:</h2>
+                <h2>Muistiinpanot / Notes:</h2>
                 {weeknotes}
             </div>
         )

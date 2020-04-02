@@ -27,6 +27,7 @@ class Note extends React.Component {
     render() {
         return (
             <div className="anote">
+                <link rel="stylesheet" href="notes.css"></link>
                 <div className="positionbutton">
                 <button onClick={this.handleDelete}>x</button>
                 </div>

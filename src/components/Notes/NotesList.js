@@ -36,7 +36,7 @@ class NotesList extends React.Component {
         return(
             <div className="notelist">
                 <br/>
-                <h2>Muistiinpanot / Notes:</h2>
+                <h3>Muistiinpanot / Notes:</h3>
                 {weeknotes}
             </div>
         )

@@ -5,15 +5,15 @@ const Home = () => {
     return (
         <div>
             <br/>
-        <h1>Academy Java Kurssikaveri / Study Buddy</h1>
-            <p>Tervetuloa Academy:n Java Kurssikaveriin.<br />
-                Täältä löydät kokoelman oppaita, "cheat sheetejä" ja helppotajuisia videoita kurssin aikana käsitellyistä asioista.<br />
-                Voit myös lisätä omia muistiinpanojasi.<br />
-                Mukavaa opiskelua!</p><br /><br />
-            <p>Welcome to your Academy Java Study Buddy.<br />
-                Here you'll find a collection of extra information on the material that you've been covering in the course, including guides, cheat sheets and easy to understand videos.<br />
-                You can also add your own notes.<br />
-                Happy studying!<br />
+        <h1>Academy Java Kurssikaveri / Study Buddy</h1><br/>
+            <p>Tervetuloa Academy:n Java Kurssikaveriin.<br /><br/>
+                Täältä löydät kokoelman oppaita, "cheat sheetejä" ja helppotajuisia videoita kurssin aikana käsitellyistä asioista.<br/><br/>
+                Voit myös lisätä omia muistiinpanojasi.<br/><br/>
+                Mukavaa opiskelua!</p><br/><br/><br/>
+            <p>Welcome to your Academy Java Study Buddy.<br/><br/>
+                Here you'll find a collection of extra information on the material that you've been covering in the course, including guides, cheat sheets and easy to understand videos.<br/><br/>
+                You can also add your own notes.<br/><br/>
+                Happy studying!<br/>
             </p>
             <br />
             <br />

@@ -11,7 +11,7 @@ const Week3 = () => {
             <Navi />
             <br/>
 
-            <h1>Viikko / Week 3</h1>
+            <h1>Viikko / Week 3</h1><br/>
 
             <p>Under construction...</p><br /><br />
 

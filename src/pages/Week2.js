@@ -12,7 +12,7 @@ const Week2 = () => {
             <Navi />
             <br/>
 
-            <h1>Viikko / Week 2</h1>
+            <h1>Viikko / Week 2</h1><br/>
 
             <p>
                 Toisella viikolla syvensit osaamistasi Javan ja testaamisen osalta ja harjoittelit testivetoista kehittämistä.<br/><br/>

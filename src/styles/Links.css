@@ -14,18 +14,10 @@
 
 .linklist {
     display: inline-flex;
-    margin: 10px;
     text-align: center;
     flex-direction: column;
     width: 90%;
-    margin-left: 240px;
-    font-size: large;
+    padding-left: 250px;
+    font-size: 24px;
 
-
-
-
-}
-
-h1 {
-    padding-bottom: 12px
 }

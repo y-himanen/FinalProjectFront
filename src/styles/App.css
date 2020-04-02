@@ -10,11 +10,13 @@
   background-color: #282c34;
   color: #eeeeee;
 }
+
 html,
 body {
   margin: 0px;
   top: 90px;
 }
+
 
 .bm-item {
   display: inline-flex;
@@ -65,8 +67,4 @@ body {
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
-}
-
-.notelist {
-  display: flex;
 }

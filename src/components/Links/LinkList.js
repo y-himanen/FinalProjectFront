@@ -36,8 +36,7 @@ class LinkList extends React.Component {
         return (
             <div className= 'linklist'>
                 <br/>
-                <h2>Hyödylliset linkit / Useful links:</h2>
-                <br/>
+                <h1>Hyödylliset linkit / Useful links:</h1>
                 {linklist}
                 <br/>
             </div>

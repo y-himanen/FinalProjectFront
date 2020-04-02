@@ -7,6 +7,7 @@ const Dictionary = (props) => {
 
     return (
         <div ClassName= 'Dictionary'>
+            <link rel="stylesheet" href="Dictionary.css"></link>
             <Navi />
             <h1>Koodaussanakirja / Coding Dictionary</h1>
             <DictionarySearchResult />

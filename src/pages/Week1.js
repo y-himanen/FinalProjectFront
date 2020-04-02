@@ -15,14 +15,14 @@ const Week1 = () => {
             <h1>Viikko / Week 1</h1>
 
             <p>
-                    Ensimmäisellä viikolla opit Javan peruskäyttöä, muun muassa virtojen ja säännöllisten lausekkeiden käytön sekä poikkeuksien käsittelyn.<br />
+                    Ensimmäisellä viikolla opit Javan peruskäyttöä, muun muassa virtojen ja säännöllisten lausekkeiden käytön sekä poikkeuksien käsittelyn.<br/><br/>
                     Opit myös hieman hajautetusta version hallinnasta Gitin avulla.<br/><br/>
                     Harjoitellaan tällä viikolla opittuja asioita - Valmiina? Auta koodaamalla <Link to="/sammy1">Sammya</Link> hänen seikkailuissaan!<br/><br/><br/>
             </p>
             <p>
-                    In week 1 you learned the basics of using Java, including streams, regular expressions, and exception handling amongst other topics.<br/>
+                    In week 1 you learned the basics of using Java, including streams, regular expressions, and exception handling amongst other topics.<br/><br/>
                     You also learned a little about distributed version control using Git.<br/><br/>
-                    Ready to practice what you've learned this week? Hop on over <Link to="/sammy1">here</Link> to use coding to help Sammy on his adventures!<br/><br/>
+                    Ready to practice what you've learned this week? Hop on over <Link to="/sammy1">here</Link> to use coding to help Sammy on his adventures!
             </p>
             <LinkList wk={week}/>
             <AddNote wk={week}/>

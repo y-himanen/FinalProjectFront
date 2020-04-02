@@ -45,13 +45,14 @@ class DictionarySearchResult extends Component {
         <DictionaryEntry key={dictionaryentry.id} finnish={dictionaryentry.finnish} english={dictionaryentry.english}/>);
 
         return (
-            <div>
-                Mikä tämä on englanniksi? <input type="text" onChange={this.finnishChangeHandler}/>
-                <button onClick={this.searchHandler}>Hae</button>
+            <div className="dict">
+                <link rel="stylesheet" href="Dictionary.css"></link>
+                <p>Mikä tämä on englanniksi? <input type="text" onChange={this.finnishChangeHandler}/>
+                <button onClick={this.searchHandler}>Hae</button></p>
                 <br/>
                 <br/>
-                What's that in Finnish? <input type="text" onChange={this.englishChangeHandler}/>
-                <button onClick={this.searchHandler}>Search</button>
+                <p>What's that in Finnish? <input type="text" onChange={this.englishChangeHandler}/>
+                    <button onClick={this.searchHandler}>Search</button></p>
                 <br/>
                 <br/>
                 {searchresult}

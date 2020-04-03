@@ -27,8 +27,8 @@ const CollapseMenu = (props) => {
 
 export default CollapseMenu;
 
+// alastulevan valikon väri:
 const CollapseWrapper = styled(animated.div)`
-  // alastulevan valikon väri:
   background: #2d3436; 
   position: fixed;
   top: 10rem; //tämä oli 4.5rem
@@ -51,6 +51,7 @@ const NavLinks = styled.ul`
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
+
 
     &:hover {
       color: #fdcb6e;

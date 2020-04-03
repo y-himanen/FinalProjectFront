@@ -69,7 +69,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #b8b894;
+  background: #2d3436;
   z-index: 1;
   font-size: 1.4rem;
 `;
@@ -92,7 +92,7 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
 
   & a {
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;
